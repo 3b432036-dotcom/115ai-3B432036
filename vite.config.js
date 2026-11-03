@@ -1,8 +1,7 @@
 import { defineConfig } from 'vite'
-import vue from '@vitejs/plugin-vue'
+import vue from '@vitejs.plugin-vue'
 
-// https://vite.dev/config/
 export default defineConfig({
-  base: './',
   plugins: [vue()],
+  base: '/115ai-3B432036/', // 例如儲存庫叫 my-vue-app，這裡就寫 '/my-vue-app/'
 })
